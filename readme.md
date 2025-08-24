@@ -12,3 +12,6 @@ Criação de um server MCP stdio para dar ao LLM a capacidade de atuar como um a
 
 ### mcp_http_streamable_atendente_pizzaria_simples
 Criação de um server MCP http streamable do atendente de pizzaria, deve conseguir fazer as mesma coisas que o outro, mas com comunicação via streamable http
+
+### langchain_corretor_redacao
+Projeto para estudo de langchain, deve corrigir com base em critérios uma redação de português.
