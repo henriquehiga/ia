@@ -16,6 +16,28 @@
       "disponivel": false
     }
   ],
-  "pedidos": [],
-  "logs": []
+  "pedidos": [
+    {
+      "id": "a58d",
+      "pizzas": [
+        {
+          "pizzaId": "874dc758-6e0d-4367-ad9c-5253cda924bd"
+        }
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "id": "33a2",
+      "input": {
+        "pizzas": [
+          {
+            "pizzaId": "874dc758-6e0d-4367-ad9c-5253cda924bd"
+          }
+        ]
+      },
+      "requestBody": "{\"pizzas\":[{\"pizzaId\":\"874dc758-6e0d-4367-ad9c-5253cda924bd\"}]}",
+      "date": "2025-08-24T19:39:18.668Z"
+    }
+  ]
 }
