@@ -4,12 +4,12 @@ import { z } from "zod";
 import { enviarPedido } from "./functions/enviar-pedido.function";
 import { listarPizzas } from "./functions/listar-pizzas.function";
 
-const server = new McpServer({
+const mcpServer = new McpServer({
   name: "mcp-server-atendente-simples",
   version: "1.0.0"
 });
 
-server.registerTool("listar_pizzas_tool",
+mcpServer.registerTool("listar_pizzas_tool",
   {
     title: "Tool para listar pizzas.",
     description: "Use esta tool para listar todas as pizzas no momento, tanto para enviar ao cliente quanto para consultar se o cliente pedir."
@@ -22,7 +22,7 @@ server.registerTool("listar_pizzas_tool",
   }
 );
 
-server.registerTool("enviar_pedido_tool",
+mcpServer.registerTool("enviar_pedido_tool",
   {
     title: "Tool para enviar pedido de pizzas.",
     description: "Use esta ferramenta para finalizar e enviar o pedido para a cozinha DEPOIS que o cliente confirmar explicitamente os itens e disser que quer finalizar.",
@@ -46,4 +46,4 @@ server.registerTool("enviar_pedido_tool",
 );
 
 const transport = new StdioServerTransport();
-server.connect(transport);
+mcpServer.connect(transport);
