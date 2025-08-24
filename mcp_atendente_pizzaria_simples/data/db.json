@@ -16,10 +16,6 @@
       "disponivel": false
     }
   ],
-  "pedidos": [
-    {
-      "id": "1766"
-    }
-  ],
+  "pedidos": [],
   "logs": []
 }
