@@ -12,7 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.17.4"
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "json-server": "^1.0.0-beta.3"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
