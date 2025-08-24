@@ -2,3 +2,10 @@
 
 ### lm_studio_mcp
 Criação de um server MCP com funções muito simples e utilizando o LM Studio como host para utilizar as funções criadas.
+
+### mcp_atendente_pizzaria_simples
+Criação de um server MCP para dar ao LLM a capacidade de atuar como um atendente de pizzaria que executa funções simples como:
+    - consultar lista de pizzas
+    - enviar lista de pizzas disponíveis
+    - anotar o pedido
+    - enviar o pedido para o sistema

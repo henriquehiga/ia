@@ -1,0 +1,21 @@
+{
+  "pizzas": [
+    {
+      "id": "c4efa9f6-a76c-4d93-b1e0-2e63f0f35aff",
+      "nome": "Calabresa",
+      "disponivel": true
+    },
+    {
+      "id": "874dc758-6e0d-4367-ad9c-5253cda924bd",
+      "nome": "Portuguesa",
+      "disponivel": true
+    },
+    {
+      "id": "e1294a7a-6643-4c1b-bb0b-f40dd7f295e6",
+      "nome": "Pepperonni",
+      "disponivel": false
+    }
+  ],
+  "pedidos": [],
+  "logs": []
+}
