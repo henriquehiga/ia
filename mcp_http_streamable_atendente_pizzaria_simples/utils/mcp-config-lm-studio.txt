@@ -1,0 +1,16 @@
+Caminho absoluto para o path como argumento.
+
+{
+  "mcpServers": {
+    "teste": {
+      "command": "uv",
+      "args": [
+        "run"
+      ]
+    },
+    "atendente_pizzaria_simples": {
+      "command": "node",
+      "args": []
+    }
+  }
+}
