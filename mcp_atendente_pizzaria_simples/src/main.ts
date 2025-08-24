@@ -13,7 +13,7 @@ server.registerTool("listar_pizzas",
     description: "Use esta tool para listar todas as pizzas no momento, tanto para enviar ao cliente quanto para consultar se o cliente pedir."
   },
   async () => {
-    const pizzas = listarPizzas();
+    const pizzas = await listarPizzas();
     return {
       content: [{ type: "text", text: JSON.stringify(pizzas, null, 2) }]
     };

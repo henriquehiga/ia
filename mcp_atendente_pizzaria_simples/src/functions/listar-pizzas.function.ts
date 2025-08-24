@@ -1,19 +1,7 @@
-export function listarPizzas() {
-    return [
-        {
-            id: 1,
-            nome: "Calabresa",
-            disponivel: true
-        },
-        {
-            id: 2,
-            nome: "Portuguesa",
-            disponivel: true
-        },
-        {
-            id: 3,
-            nome: "Pepperonni",
-            disponivel: false
-        }
-    ]
+export async function listarPizzas() {
+    const response = await fetch('http://localhost:3000/pizzas', {
+        method: "GET"
+    });
+    const pizzas = await response.json() as { id: string, nome: string, disponivel: boolean }[];
+    return pizzas;
 }
