@@ -24,8 +24,7 @@ app.post('/mcp', async (req, res) => {
       sessionIdGenerator: () => randomUUID(),
       onsessioninitialized: (sessionId) => {
         transports[sessionId] = transport;
-      },
-      allowedHosts: ['127.0.0.1'],
+      }
     });
 
     transport.onclose = () => {
